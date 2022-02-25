@@ -1,0 +1,137 @@
+@media only screen and (max-width: 480px){
+/* navbar starts */
+
+  
+  /* navbar ends */
+  /* slider starts */
+  .ourslider{
+      display:none
+  }
+  .slider{
+    color: white;
+    height: 1000px;
+    display: grid;
+    justify-content: end;
+    align-items: center;
+  }
+
+  /* slider ends */
+
+  /* populer start  */
+  
+.populer{
+    padding-top: 5px;
+}
+.populer h4{
+    /* padding-top:200px */
+}
+  /* populer ends */
+  /* New arrivals starts */
+.btn{
+    border: 1px solid black;
+}
+
+.new-arrivals h2{
+    padding-top:150px;
+    font-size: 20px;
+}
+
+.new-arrivals p{
+    font-size: 20px;
+}
+.new-arrivals .btn{
+    btn-warning: #d8924c;
+    float: right;
+}
+
+.new-arrivals img{
+    padding-top: 100px;
+}
+
+  /* New arrivals ends */
+
+  /* sofa banner starts  */
+.sofa{
+    height: 600px;
+    width: 80%;
+
+}
+.sofa .content {
+    position: relative;
+    left:0%;
+    text-align: center;
+    
+  }
+
+.sofa .content .div_1 {
+    height: 600px;
+    width: 15%;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+  }
+
+.sofa .content .div_1 img {
+    width: 600px; /* width of container */
+    height: 600px; /* height of container */
+    object-fit: cover;
+    z-index:1;
+  }
+.sofa .content .div_2 {
+    
+    background-color: #373e3f;
+    border: 1px solid black;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    opacity: .9;
+  }
+.sofa .content .div_3 {
+    color: white;
+    width: 200%;
+    position: absolute;
+    z-index: 111;
+    /* padding: 30px 30px; */
+    font-weight: 500;
+  }
+ .sofa .content span{
+      color:orange;
+      font-weight: 600;
+      overflow: hidden;
+  }
+  /* sofa banner ends */
+
+  /* featured section starts  */
+
+.review i{
+    letter-spacing: 5px;
+}
+
+  /* featured section ends */
+
+/* client section start  */
+.clients{
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+/* client section end  */
+
+/* footer section start  */
+.footer li{
+    list-style-type: none;
+    margin: 0;
+padding: 0;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    opacity: .5;
+    border-radius: 50%;
+}
+
+/* footer section end */
+}

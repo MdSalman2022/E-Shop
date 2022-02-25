@@ -2,6 +2,12 @@
 /* navbar starts */
 
   
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+  }
   /* navbar ends */
   /* slider starts */
   .ourslider{
@@ -14,13 +20,20 @@
     justify-content: end;
     align-items: center;
   }
+  .slider .navigation{
+    display: none;
+  }
 
   /* slider ends */
 
   /* populer start  */
   
 .populer{
-    padding-top: 5px;
+    width: 100%;
+    text-align: center;
+    padding-left: 50px;
+
+
 }
 .populer h4{
     /* padding-top:200px */
@@ -53,27 +66,27 @@
   /* sofa banner starts  */
 .sofa{
     height: 600px;
-    width: 80%;
+    
 
 }
 .sofa .content {
     position: relative;
-    left:0%;
     text-align: center;
-    
+    width: 100%;    
+    position: relative;
   }
 
 .sofa .content .div_1 {
     height: 600px;
-    width: 15%;
-    position: absolute;
+    width: 100%;
     z-index: 0;
-    left: 0;
+    left: 0;    
+    position: absolute;
   }
 
 .sofa .content .div_1 img {
-    width: 600px; /* width of container */
-    height: 600px; /* height of container */
+    width: 100%; /* width of container */
+    height: 400px; /* height of container */
     object-fit: cover;
     z-index:1;
   }
@@ -81,20 +94,27 @@
     
     background-color: #373e3f;
     border: 1px solid black;
-    height: 600px;
-    width: 100%;
+    height: 400px;
+    width: 60%;
     position: absolute;
-    left: 0;
     z-index: 11;
     opacity: .9;
   }
 .sofa .content .div_3 {
     color: white;
-    width: 200%;
     position: absolute;
     z-index: 111;
     /* padding: 30px 30px; */
-    font-weight: 500;
+    font-weight: 400;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .div_3 h3{
+    font-size: 20px;
+  }
+  .div_3 p{
+    font-size:15px;
   }
  .sofa .content span{
       color:orange;
@@ -113,8 +133,11 @@
 
 /* client section start  */
 .clients{
-    padding-top:100px;
-    padding-bottom:100px;
+  padding-top:100px;
+  padding-bottom:100px;
+  display: grid;
+  justify-content: center;
+  padding-left: 60px;
 }
 
 /* client section end  */
@@ -124,6 +147,9 @@
     list-style-type: none;
     margin: 0;
 padding: 0;
+}
+.footer {
+  text-align: center;
 }
 #btn-back-to-top {
     position: fixed;

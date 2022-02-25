@@ -1,10 +1,8 @@
 /* navbar starts */
 
 .navbar {
-    position: fixed;
     top: 0;
     width: 100%;
-    z-index: 111111;
   }
   
 .navbar i{
@@ -155,7 +153,10 @@ li .active{
 .clients{
     padding-top:100px;
     padding-bottom:100px;
+    display: grid;
+    justify-content: center;
 }
+
 
 /* client section end  */
 

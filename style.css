@@ -1,13 +1,23 @@
 /* navbar starts */
-
+.navbar button i{
+    border: 0;;
+  }
 .navbar {
     top: 0;
     width: 100%;
   }
   
-.navbar i{
+.navbar button{
       
-    color:#6c757d;
+    color:rgba(0, 0, 0, 0);
+}
+  
+.navbar .navbar-toggler i{
+      
+    color:#ffc107;
+    border: 2px solid #ffc107;
+    padding: 10px 5px;
+    border-radius: 5px;
 }
   /* navbar ends */
   /* slider starts */

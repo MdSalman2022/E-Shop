@@ -1,12 +1,29 @@
 @media only screen and (max-width: 480px){
 /* navbar starts */
 
-  
+.navbar button i{
+  border: 0;
+}
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 0;
+  width: 100%;
+}
+
+.navbar button{
+    
+  color:rgba(0, 0, 0, 0);
+}
+
+.navbar .navbar-toggler i{
+    
+  color:#ffc107;
+  border: 2px solid #ffc107;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+  .sidemenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   /* navbar ends */
   /* slider starts */

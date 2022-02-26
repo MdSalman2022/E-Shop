@@ -100,55 +100,24 @@ li .active{
   /* New arrivals ends */
 
   /* sofa banner starts  */
-.sofa{
-    height: 600px;
-    width: 80%;
-
-}
-.sofa .content {
+  .sofa {
+    background: url(images/collection/sofa-collection-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    left:13%;
-    
+    z-index: -2;
   }
-
-.sofa .content .div_1 {
-    height: 600px;
-    width: 100%;
-    position: absolute;
-    z-index: 0;
+  .bg-back {
+    position: absolute;    
+    height: 100%;
+    width: 36%;
+    background-color: rgba(0, 0, 0, 0.623);
     left: 0;
+    top: 0;
+    z-index: -1;
   }
-
-.sofa .content .div_1 img {
-    width: 100%;
-    height: 600px; /* height of container */
-    object-fit: cover;
-    z-index:1;
-  }
-.sofa .content .div_2 {
-    
-    background-color: #373e3f;
-    border: 1px solid black;
-    height: 600px;
-    width: 30%;
-    position: absolute;
-    left: 0;
-    z-index: 1;
-    opacity: 95%;
-  }
-.sofa .content .div_3 {
-    color: white;
-    width: 50%;
-    position: absolute;
-    z-index: 11;
-    padding: 180px 100px;
-    font-weight: 500;
-  }
-
- .sofa .content span{
-      color:orange;
-      font-weight: 600;
-      overflow: hidden;
+  .col-md-6 .py-3 {
+    z-index: 122;
   }
   /* sofa banner ends */
 

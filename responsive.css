@@ -103,14 +103,14 @@
 
 .sofa .content .div_1 {
     height: 600px;
-    width: 100%;
+    /* width: 100%; */
     z-index: 0;
     left: 0;    
     position: absolute;
   }
 
 .sofa .content .div_1 img {
-    width: 100%; /* width of container */
+    /* width: 100%; width of container */
     height: 400px; /* height of container */
     object-fit: cover;
     z-index:1;
@@ -127,12 +127,12 @@
   }
 .sofa .content .div_3 {
     color: white;
-    position: absolute;
+    /* position: absolute; */
     z-index: 111;
     /* padding: 30px 30px; */
     font-weight: 400;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 2px;
     text-align: center;
   }
   .div_3 h3{
